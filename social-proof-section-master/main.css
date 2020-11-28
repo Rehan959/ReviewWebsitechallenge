@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap");
+ 
+body {
+  font-family: "Spartan", sans-serif;
+  position: relative;
+  display:flex;
+ flex-wrap: wrap;
+ flex-grow:10;
+ flex-shrink:10;
+  flex-direction:column;
+}
+.purple {
+font-size:70px;
+font-weight: bolder;
+color:purple;
+}
+.One,.Two,.Three{
+    background-color: hsl(300, 24%, 96%);
+width:40vw;
+ 
+border-radius:10px;
+padding:10px;
+  }
+  .icon{
+    width:50px;
+    height:50px;
+  }
+  .rating{
+    top: 0px;
+    right:0px;
+    position: absolute;
+  }
+
+ .text{
+   width:900px;
+ }
+ .First,.second,.Third{
+ 
+ 
+   border-radius:20px;
+   width:20vw;
+   padding:20px;
+   margin:20px;
+   background-color: purple;
+ }
+ 
+ .img{
+   border-radius:50%;
+ }
+ .all{
+   display: flex;
+   flex-wrap: wrap;
+flex-grow:5;
+flex-shrink:5;
+   justify-content: center;
+   align-items: center;
+ 
+ margin-top:90px;
+ }
+ 
